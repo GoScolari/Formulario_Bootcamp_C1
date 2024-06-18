@@ -1,0 +1,112 @@
+/* Estilo para el body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background: url('/Formulario_Bootcamp_C1/assets/images/experienciadigital-web-scaled.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Estilo para el contenedor */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo para el recuadro */
+.box {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: auto; /* Ancho automático según el contenido */
+    max-width: 90%; /* Ancho máximo del recuadro */
+    text-align: center;
+    position: relative; /* Posición relativa para alinear el logo */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+/* Estilo para el logo */
+.logo {
+    max-width: 300px; /* Aumenta el tamaño del logo */
+    position: absolute; /* Posición absoluta para alinear */
+    top: -80px; /* Distancia desde la parte superior del recuadro */
+    left: 50%; /* Alineación horizontal centrada */
+    transform: translateX(-50%); /* Ajuste fino para centrar horizontalmente */
+}
+
+/* Estilo para el formulario */
+#contact-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.country-code {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.phone-group {
+    display: flex;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+
+input[type="tel"] {
+    flex: 2; /* Ajusta este valor según sea necesario para el ancho deseado */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input[type="date"],
+input[type="password"],
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+button[type="submit"] {
+    background-color: #70C6FD;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #333333;
+}
+
+
+/* Estilo para el texto con enlace a YouTube */
+
+
+
+.logoYoutube {
+    max-width: 50px; /* Aumenta el tamaño del logo */
+}
